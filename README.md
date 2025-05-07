@@ -36,7 +36,10 @@ pip install deep-translator beautifulsoup4 tqdm
    nombreArchivo_English.csv
    nombreArchivo_Spanish.csv
    nombreArchivo_German.csv
-```
+
+   ```
+   
+
 3. Ejecuta el script desde la terminal con el siguiente comando:
    
 ```text
