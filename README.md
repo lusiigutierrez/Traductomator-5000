@@ -25,18 +25,40 @@ pip install deep-translator beautifulsoup4 tqdm
 
 
 ## ▶️ Cómo usar
-Coloca el archivo .csv que quieras traducir en la misma carpeta que el script.
 
-Asegúrate de que el nombre del archivo siga un formato tipo:
+1. Coloca el archivo `.csv` que quieras traducir en la misma carpeta que el script `Traductomator5000.py`.
+
+2. Asegúrate de que el nombre del archivo siga este formato:
 
 nombreArchivo_English.csv
 nombreArchivo_Spanish.csv
 nombreArchivo_German.csv
 
-Ejecuta el script:
+markdown
+Copiar
+Editar
+
+3. Ejecuta el script desde la terminal con el siguiente comando:
+
 python3 Traductomator5000.py
 
-El archivo se procesará y traducirá automáticamente, reescribiendo el original con el contenido traducido.
+markdown
+Copiar
+Editar
+
+4. El archivo será procesado y traducido automáticamente, sobrescribiendo el original con el contenido traducido y manteniendo el formato HTML si existe.
+
+## 🧪 Ejemplo de uso
+
+- **Archivo original:**  
+  `LevelLayoutSection_Italian.csv`, con contenido en italiano y etiquetas HTML.
+
+- **Traducción generada:**  
+  El mismo archivo se sobrescribirá con el contenido traducido al idioma correspondiente, respetando la estructura HTML.
+
+- **Estructura esperada:**  
+  - El contenido a traducir debe estar en la **columna 3** (índice 2).  
+  - La traducción se almacenará en la **columna 4** (índice 3).
 
 ## 🧪 Ejemplo de uso
 Archivo original:
