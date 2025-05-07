@@ -21,6 +21,8 @@
 ## 💻 Requisitos
 
 Instala las dependencias necesarias ejecutando:
+
+```text
 pip install deep-translator beautifulsoup4 tqdm
 
 
@@ -36,7 +38,8 @@ pip install deep-translator beautifulsoup4 tqdm
    nombreArchivo_German.csv
 
 3. Ejecuta el script desde la terminal con el siguiente comando:
-
+   
+```text
 python3 Traductomator5000.py
 
 4. El archivo será procesado y traducido automáticamente, sobrescribiendo el original con el contenido traducido y manteniendo el formato HTML si existe.
